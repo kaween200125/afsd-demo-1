@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.acpt.demofx.Calculator">
+   <children>
+      <TextField fx:id="input1" layoutX="79.0" layoutY="52.0" prefHeight="26.0" prefWidth="123.0" style="-fx-background-color: cyan;" />
+      <TextField fx:id="input2" layoutX="79.0" layoutY="101.0" prefHeight="26.0" prefWidth="123.0" style="-fx-background-color: cyan;" />
+      <Button layoutX="273.0" layoutY="139.0" mnemonicParsing="false" onAction="#addition" text="+" />
+      <Button layoutX="125.0" layoutY="200.0" mnemonicParsing="false" onAction="#division" text="/" />
+      <Button layoutX="422.0" layoutY="203.0" mnemonicParsing="false" onAction="#substraction" text="-" />
+      <Button layoutX="274.0" layoutY="294.0" mnemonicParsing="false" onAction="#multiplication" text="*" />
+      <Button layoutX="275.0" layoutY="218.0" mnemonicParsing="false" onAction="#submit" text="=" />
+   </children>
+</AnchorPane>
