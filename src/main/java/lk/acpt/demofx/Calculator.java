@@ -19,6 +19,8 @@ public class Calculator {
         int num1 = Integer.parseInt(input1.getText());
         int num2 = Integer.parseInt(input2.getText());
         int sum = num1 + num2;
+        System.out.println("addition of 2 numbers");
+
         result = sum;
 
     }
@@ -28,6 +30,8 @@ public class Calculator {
         int num1 = Integer.parseInt(input1.getText());
         int num2 = Integer.parseInt(input2.getText());
         int sum = num1 / num2;
+        System.out.println("division of 2 numbers");
+
         result = sum;
     }
 
@@ -50,6 +54,8 @@ public class Calculator {
         int num1 = Integer.parseInt(input1.getText());
         int num2 = Integer.parseInt(input2.getText());
         int sum = num1 - num2;
+        System.out.println("substraction of 2 numbers");
+
         result = sum;
     }
 
