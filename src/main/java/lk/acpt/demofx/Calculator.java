@@ -52,6 +52,9 @@ public class Calculator {
         int sum = num1 - num2;
         result = sum;
     }
+    void newMethodBug2(){
+        System.out.println("bug 2");
+    }
 
 }
 
