@@ -36,12 +36,13 @@ public class Calculator {
         int num1 = Integer.parseInt(input1.getText());
         int num2 = Integer.parseInt(input2.getText());
         int sum = num1 * num2;
+        System.out.println("multiplication of 2 numbers");
         result = sum;
     }
 
     @FXML
     void submit(ActionEvent event) {
-        System.out.println("sum is: " + result);
+        System.out.println("sum is:  " + result);
     }
 
     @FXML
