@@ -58,6 +58,9 @@ public class Calculator {
 
         result = sum;
     }
+    void newMethodBug1(){
+        System.out.println("bug1");
+    }
 
 }
 
